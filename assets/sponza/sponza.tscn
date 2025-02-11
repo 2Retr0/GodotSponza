@@ -21,111 +21,133 @@ visible = false
 
 [node name="lamp_light_1st_floor_12" parent="sponza" index="24"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_11" parent="sponza" index="25"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_10" parent="sponza" index="26"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_09" parent="sponza" index="27"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_08" parent="sponza" index="28"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_07" parent="sponza" index="29"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_06" parent="sponza" index="30"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_05" parent="sponza" index="31"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_04" parent="sponza" index="32"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_03" parent="sponza" index="33"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_02" parent="sponza" index="34"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_01" parent="sponza" index="35"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_13" parent="sponza" index="36"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_08" parent="sponza" index="37"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_01" parent="sponza" index="38"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_02" parent="sponza" index="39"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_03" parent="sponza" index="40"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_04" parent="sponza" index="41"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_05" parent="sponza" index="42"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_06" parent="sponza" index="43"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_2nd_floor_07" parent="sponza" index="44"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 
 [node name="lamp_light_1st_floor_14" parent="sponza" index="45"]
 light_energy = 1.0
+light_bake_mode = 1
 shadow_enabled = true
 omni_range = 5.0
 

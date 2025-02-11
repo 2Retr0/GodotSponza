@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://dlnsm526pe50k" path="res://assets/sponza/sponza.tscn" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cnft723bala47" path="res://assets/skybox.png" id="3_0ksgj"]
 [ext_resource type="LightmapGIData" uid="uid://d6a4sxhl7vsh" path="res://assets/sponza/sponza.lmbake" id="3_h2yge"]
-[ext_resource type="Script" path="res://addons/free_look_camera/free_look_camera.gd" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://dtt1u8jxvync" path="res://addons/free_look_camera/free_look_camera.gd" id="4_1bvp3"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_bputt"]
 panorama = ExtResource("3_0ksgj")
