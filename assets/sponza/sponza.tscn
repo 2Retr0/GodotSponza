@@ -153,15 +153,6 @@ omni_range = 5.0
 
 [node name="sponza_curtains" parent="." instance=ExtResource("2_cctge")]
 
-[node name="curtain_holder_01" parent="sponza_curtains" index="0"]
-cast_shadow = 2
-
-[node name="curtain_04" parent="sponza_curtains" index="1"]
-cast_shadow = 2
-
-[node name="curtain_hanging_03" parent="sponza_curtains" index="2"]
-cast_shadow = 2
-
 [node name="sponza_ivy" parent="." instance=ExtResource("3_w7kac")]
 
 [editable path="sponza"]
