@@ -1,0 +1,174 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.1.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 47610,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 27342,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 27342,
+      "max": [
+        0.6372874975204468,
+        1,
+        0.5251014828681946
+      ],
+      "min": [
+        -0.6372874975204468,
+        -1,
+        -0.5251014828681946
+      ],
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 27342,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 27342,
+      "bufferView": 1,
+      "byteOffset": 32
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 95220,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 95220,
+      "byteLength": 1203048,
+      "byteStride": 44,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "ivyleaf_Normal",
+      "mimeType": "image/png",
+      "uri": "textures/normal_1.png"
+    },
+    {
+      "name": "ivyleaf_BaseColor",
+      "mimeType": "image/png",
+      "uri": "textures/baseColor_1.png"
+    },
+    {
+      "name": "ivyleaf_Roughness",
+      "mimeType": "image/png",
+      "uri": "textures/metallicRoughness_1.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "sponza_ivy.bin",
+      "byteLength": 1298268
+    }
+  ],
+  "materials": [
+    {
+      "name": "ivyleaf",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "IvySim_Leaves",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3,
+            "COLOR_0": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "IvySim_Leaves",
+      "translation": [
+        -7.067067176103592,
+        10.832246951758862,
+        0.9328003972768784
+      ],
+      "scale": [
+        7.19215739518404,
+        7.19215739518404,
+        7.19215739518404
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0
+}
