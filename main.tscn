@@ -27,20 +27,13 @@ adjustment_brightness = 1.1
 adjustment_contrast = 0.95
 adjustment_saturation = 1.25
 
-[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_1bvp3"]
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_lquwl"]
 exposure_multiplier = 1.35
-auto_exposure_speed = 2.0
-dof_blur_far_distance = 0.01
-dof_blur_far_transition = 40.0
-dof_blur_near_distance = 10.0
-dof_blur_near_transition = 10.0
-auto_exposure_min_sensitivity = 100.0
 
 [node name="Main" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_nkoyy")
-camera_attributes = SubResource("CameraAttributesPractical_1bvp3")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.5, -0.813798, 0.296198, 0, 0.34202, 0.939693, -0.866025, -0.469846, 0.17101, 0, 0, 0)
@@ -53,6 +46,7 @@ shadow_enabled = true
 quality = 3
 supersampling = true
 bounces = 8
+camera_attributes = SubResource("CameraAttributesPractical_lquwl")
 light_data = ExtResource("3_h2yge")
 
 [node name="Camera3D" type="Camera3D" parent="."]
