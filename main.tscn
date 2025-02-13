@@ -1,9 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://c1fxc8q7gm4yq"]
+[gd_scene load_steps=9 format=3 uid="uid://c1fxc8q7gm4yq"]
 
 [ext_resource type="PackedScene" uid="uid://dlnsm526pe50k" path="res://assets/sponza/sponza.tscn" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cnft723bala47" path="res://assets/skybox.png" id="3_0ksgj"]
 [ext_resource type="LightmapGIData" uid="uid://d6a4sxhl7vsh" path="res://assets/sponza/sponza.lmbake" id="3_h2yge"]
-[ext_resource type="Script" path="res://addons/free_look_camera/free_look_camera.gd" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://dtt1u8jxvync" path="res://addons/free_look_camera/free_look_camera.gd" id="4_1bvp3"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_bputt"]
 panorama = ExtResource("3_0ksgj")
@@ -20,17 +20,27 @@ glow_bloom = 0.1
 glow_blend_mode = 1
 volumetric_fog_enabled = true
 volumetric_fog_density = 0.0375
-volumetric_fog_albedo = Color(1, 0.823042, 0.640134, 1)
+volumetric_fog_albedo = Color(1, 0.90777, 0.815032, 1)
 volumetric_fog_sky_affect = 0.25
 adjustment_enabled = true
 adjustment_brightness = 1.1
 adjustment_contrast = 0.95
 adjustment_saturation = 1.25
 
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_1bvp3"]
+exposure_multiplier = 1.35
+auto_exposure_speed = 2.0
+dof_blur_far_distance = 0.01
+dof_blur_far_transition = 40.0
+dof_blur_near_distance = 10.0
+dof_blur_near_transition = 10.0
+auto_exposure_min_sensitivity = 100.0
+
 [node name="Main" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_nkoyy")
+camera_attributes = SubResource("CameraAttributesPractical_1bvp3")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.5, -0.813798, 0.296198, 0, 0.34202, 0.939693, -0.866025, -0.469846, 0.17101, 0, 0, 0)
@@ -46,6 +56,6 @@ bounces = 8
 light_data = ExtResource("3_h2yge")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.258819, 0.330366, 0.907674, 0, 0.939693, -0.34202, -0.965926, -0.0885212, -0.24321, 6.75, 1.75, -1.5)
+transform = Transform3D(-0.258819, 0.330366, 0.907674, 0, 0.939693, -0.34202, -0.965926, -0.0885212, -0.24321, 6.75, 1.75, -1.25)
 fov = 60.0
 script = ExtResource("4_1bvp3")

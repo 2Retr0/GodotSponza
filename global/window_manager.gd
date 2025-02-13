@@ -16,7 +16,7 @@ func _input(event: InputEvent) -> void:
 	if event.is_action_pressed(&'toggle_fullscreen'):
 		var window := get_window()
 		if window.is_embedded() or Engine.is_embedded_in_editor(): return
-		
+
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN if DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_WINDOWED else DisplayServer.WINDOW_MODE_WINDOWED)
 	elif event.is_action_pressed(&'ui_cancel'):
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)

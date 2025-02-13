@@ -18,11 +18,13 @@ func _input(event: InputEvent) -> void:
 func _render_imgui() -> void:
 	var fps := Engine.get_frames_per_second()
 	var window := get_window()
+	var size := get_viewport().get_visible_rect().size
 
 	ImGui.Begin(' ', [], ImGui.WindowFlags_AlwaysAutoResize | ImGui.WindowFlags_NoMove)
 	ImGui.SetWindowPos(Vector2(20, 20))
 	ImGui.SeparatorText(ProjectSettings.get_setting('application/config/name'))
 	ImGui.Text('FPS:                %d (%s)' % [fps, '%.2fms' % (1.0 / fps*1e3)])
+	ImGui.Text('Render Resolution:  %d × %d' % [size.x, size.y] + ('' if viewport.msaa_3d < Viewport.MSAA_2X else ' (%d× MSAA)' % 2**viewport.msaa_3d))
 
 	ImGui.SeparatorText('Camera')
 	ImGui.Text('Camera Position:    %+.2v' % camera.global_position)
